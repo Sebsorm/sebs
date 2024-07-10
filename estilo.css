@@ -1,0 +1,52 @@
+body {
+    background-color: azure;
+    background-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    width: 100%;
+    background: grey;
+    margin: auto;
+}
+.menu1>li{
+    float: right;
+}
+.menu1 li a{
+    background-color: black;
+    color: white;
+    text-decoration: double;
+    padding: 10px 15px;
+    display: block;
+}
+.menu1 li a:hover{
+    background-color: gray;
+} 
+#menu{
+    display: none;
+} 
+header label{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-right: 1px gray;
+}
+header label:hover{
+    cursor: pointer;
+    background: white(0,0,0);
+} 
+.menu1 li ul {
+    display: none ;
+    position: absolute;
+    min-height: 140px;
+}
+.menu1 li:hover> ul {
+    display: block;
+}
+.menu1 ul{ 
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+} 
